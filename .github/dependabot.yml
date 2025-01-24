@@ -9,9 +9,7 @@ updates:
   # Schedule for go module updates
   - package-ecosystem: "gomod"
     directory: "/common/"
-    schedule:
-      interval: "daily"
-      time: "18:00"
+
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: all
@@ -28,9 +26,7 @@ updates:
 
   - package-ecosystem: "gomod"
     directory: "/migration/"
-    schedule:
-      interval: "daily"
-      time: "18:00"
+
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: all
@@ -46,9 +42,7 @@ updates:
           - "*"
   - package-ecosystem: "gomod"
     directory: "/podmon/"
-    schedule:
-      interval: "daily"
-      time: "18:00"
+
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: all
@@ -64,9 +58,7 @@ updates:
           - "*"
   - package-ecosystem: "gomod"
     directory: "/replication/"
-    schedule:
-      interval: "daily"
-      time: "18:00"
+
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: all
@@ -82,9 +74,7 @@ updates:
           - "*"
   - package-ecosystem: "gomod"
     directory: "/volumeGroupSnapshot/"
-    schedule:
-      interval: "daily"
-      time: "18:00"
+
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: all
