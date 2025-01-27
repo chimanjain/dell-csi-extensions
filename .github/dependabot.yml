@@ -27,7 +27,7 @@ updates:
           - "*"
 
   - package-ecosystem: "gomod"
-    directory: "/migration/"
+    directory: "/migration"
     schedule:
       interval: "daily"
       time: "18:00"
@@ -45,7 +45,7 @@ updates:
         patterns:
           - "*"
   - package-ecosystem: "gomod"
-    directory: "/podmon/"
+    directory: "/podmon"
     schedule:
       interval: "daily"
       time: "18:00"
@@ -63,7 +63,7 @@ updates:
         patterns:
           - "*"
   - package-ecosystem: "gomod"
-    directory: "/replication/"
+    directory: "/replication"
     schedule:
       interval: "daily"
       time: "18:00"
@@ -81,7 +81,7 @@ updates:
         patterns:
           - "*"
   - package-ecosystem: "gomod"
-    directory: "/volumeGroupSnapshot/"
+    directory: "/volumeGroupSnapshot"
     schedule:
       interval: "daily"
       time: "18:00"
