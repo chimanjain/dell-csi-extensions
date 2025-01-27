@@ -8,7 +8,7 @@ version: 2
 updates:
   # Schedule for go module updates
   - package-ecosystem: "gomod"
-    directory: "/common/"
+    directory: "/common"
     schedule:
       interval: "daily"
       time: "18:00"
